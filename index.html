@@ -21,7 +21,7 @@
   </head>
   <body>
     <header>
-      <div class="container row">
+      <nav class="nav__bar container">
         <div class="img__logo">
           <a href="#">
             <img
@@ -31,26 +31,33 @@
             />
           </a>
         </div>
-        <nav class="nav">
-          <ul class="nav__list">
-            <li class="nav__items">
-              <a href="#" class="nav__link">home</a>
-            </li>
-            <li class="nav__items">
-              <a href="#" class="nav__link">about</a>
-            </li>
-            <li class="nav__items">
-              <a href="#" class="nav__link">contact</a>
-            </li>
-            <li class="nav__items">
-              <a href="#" class="nav__link">sign in</a>
-            </li>
-            <li class="nav__items">
-              <a href="#" class="nav__link btn nav__link--sign--btn">sign up</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+
+        <ul class="nav__menu">
+          <li class="nav__item">
+            <a href="#" class="nav__link">home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">about</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">contact</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">sign in</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link btn nav__link--sign--btn">sign up</a>
+          </li>
+        </ul>
+
+        <div class="hamburger-container">
+          <img
+            class="hamburger-menu"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png"
+            alt=""
+          />
+        </div>
+      </nav>
     </header>
     <section class="hero">
       <div class="hero__text container">
@@ -189,5 +196,7 @@
         </div>
       </div>
     </section>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
+
